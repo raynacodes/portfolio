@@ -1,20 +1,20 @@
 @font-face {
   font-family: magic;
-  src: url("Letter Magic.ttf");
+  src: url("fonts/Letter Magic.ttf");
 }
 @font-face {
   font-family: caviar;
-  src: url("caviar_dreams/CaviarDreams.ttf");
+  src: url("fonts/caviar_dreams/CaviarDreams.ttf");
 }
 @font-face {
   font-family: caviar-bold;
   font-weight: bold;
-  src: url("caviar_dreams/CaviarDreams_Bold.ttf");
+  src: url("fonts/caviar_dreams/CaviarDreams_Bold.ttf");
 }
 @font-face {
   font-family: caviar-italic;
   font-weight: italic;
-  src: url("caviar_dreams/CaviarDreams_Italic.ttf");
+  src: url("fonts/caviar_dreams/CaviarDreams_Italic.ttf");
 }
 body {
   margin: 0;
