@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(83, 83, 83);
+    background-image: url('https://wallpaperaccess.com/full/521111.jpg');
+    background-size: 100%;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 200px;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 27px;
+}
+h3{
+    font-size: 20px;
+    background-color: #ACCEB2;
+    width: 40%;
+    margin: 10px auto;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+h3 i{
+    vertical-align: middle;
+    margin: 0 10px;
+}
+h3:hover{
+    background-color: #000000;
+    color: #ACCEB2;
+}
