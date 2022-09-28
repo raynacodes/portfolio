@@ -388,3 +388,28 @@ i.slider-btn {
   font-family: caviar;
   text-align: center;
 }/*# sourceMappingURL=portfolio4.css.map */
+
+@media (max-width: 600px){
+  .title-and-img{
+    flex-wrap: wrap;
+  }
+  .title-and-img img{
+    transform: scale(0.6);
+    margin-top: -60px;
+  }
+  .title {
+    transform: scale(0.8);
+    margin-left: -40px;
+    margin-top: -160px;
+  }
+  #also-use{
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  #also-use p{margin: 5px;}
+  .template{transform: scale(0.9);}
+  .contact{transform: scale(0.6); margin-left: -115px;}
+}
+
+#clone-grouping{display: none;}
+#expand-less-clone{display: none;}
