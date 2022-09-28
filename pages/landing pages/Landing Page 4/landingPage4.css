@@ -1,0 +1,93 @@
+body{
+    font-family: 'Abel', sans-serif;
+}
+.main-1{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.main-1 h1{
+    font-size: 80px;
+    text-wrap: wrap;
+    width: 700px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 250px;
+    padding: 20px;
+   border: none;
+   border-radius: 35px;
+   background-color: #ffffff;
+   box-shadow: 2px 2px 2px 3px #B2968A;
+   font-size: 25px;
+   font-family: 'Abel', sans-serif;
+}
+#submit{
+    border: none;
+    padding: 20px;
+   border: none;
+   border-radius: 35px;
+   background-color: #DAF97A;
+   font-size: 25px;
+   cursor: pointer;
+   font-family: 'Abel', sans-serif;
+   box-shadow: 2px 2px 2px 3px #B2968A;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    position: absolute;
+    z-index: 100;
+}
+nav p{
+    padding: 0 25px;
+    font-size: 20px;
+    margin: 25px 5px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: 'Abel', sans-serif;
+    box-shadow: 1px 1px 1px 2px #B2968A;
+}
+
+img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.main-2{
+    background-color: #F7C5B0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 1000px;
+    height: 375px;
+    z-index: -100;
+}
+.text{
+    margin: 100px;
+}
+.text h1{
+    font-size: 45px;
+    margin-top: -10px;
+}
+.text h1 span{color: #5A3D31;}
+.text p{
+    font-size: 26px;
+    margin: 30px;
+}
+.word{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding: 10px 20px;
+    
+}
+#logo{
+    position: absolute;
+    z-index: 10000;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+}
