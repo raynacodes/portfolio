@@ -142,3 +142,55 @@ slideLeft2.onclick = function() {
         behavior: 'smooth'
     });
 }
+
+
+//email clone dropdown
+
+const cloneBtn = document.getElementById('clone-title');
+const cloneSection = document.getElementById('clone-grouping');
+const cloneHideBtn = document.getElementById('expand-less-clone');
+
+cloneBtn.onclick = function() {
+    cloneSection.style.display = 'flex';
+    cloneBtn.style.display = 'none';
+    cloneHideBtn.style.display = 'inline-block';
+    slideLeft3.style.display = 'inline-block';
+    slideRight3.style.display = 'inline-block';
+    window.scrollTo({
+        top: 1870,
+        behavior: 'smooth'
+    });
+}
+
+cloneHideBtn.onclick = function() {
+    cloneSection.style.display = 'none';
+    cloneHideBtn.style.display = 'none';
+    cloneBtn.style.display = 'inline-block';
+    slideLeft3.style.display = 'none';
+    slideRight3.style.display = 'none';
+    window.scrollTo({
+        top: 1400,
+        behavior: 'smooth'
+    });
+}
+
+const slideRight3 = document.getElementById('slide-right-3');
+const slideLeft3 = document.getElementById('slide-left-3');
+const cloneContainer = document.getElementById('clone-container');
+
+slideRight3.onclick = function() {
+    cloneContainer.scrollBy({
+        top: 0,
+        left: 400,
+        behavior: 'smooth'
+    });
+}
+
+slideLeft3.onclick = function() {
+    cloneContainer.scrollBy({
+        top: 0,
+        left: -400,
+        behavior: 'smooth'
+    });
+}
+
