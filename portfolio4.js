@@ -61,10 +61,9 @@ emailBtn.onclick = function() {
     emailHideBtn.style.display = 'inline-block';
     slideLeft.style.display = 'inline-block';
     slideRight.style.display = 'inline-block';
-    window.scrollTo({
-        top: 1540,
+    document.querySelector('#email-temp-title').scrollIntoView({
         behavior: 'smooth'
-    });
+      });
 }
 
 emailHideBtn.onclick = function() {
@@ -106,10 +105,9 @@ landingBtn.onclick = function() {
     landingHideBtn.style.display = 'inline-block';
     slideLeft2.style.display = 'inline-block';
     slideRight2.style.display = 'inline-block';
-    window.scrollTo({
-        top: 1670,
+    document.querySelector('#landing-temp-title').scrollIntoView({
         behavior: 'smooth'
-    });
+      });
 }
 
 landingHideBtn.onclick = function() {
@@ -156,10 +154,9 @@ cloneBtn.onclick = function() {
     cloneHideBtn.style.display = 'inline-block';
     slideLeft3.style.display = 'inline-block';
     slideRight3.style.display = 'inline-block';
-    window.scrollTo({
-        top: 1870,
+    document.querySelector('#clone-temp-title').scrollIntoView({
         behavior: 'smooth'
-    });
+      });
 }
 
 cloneHideBtn.onclick = function() {
